@@ -32,6 +32,7 @@ dependencies {
     implementation('com.h2database:h2') // 인메모리 관계형 데이터베이스, 프로젝트 의존성만으로 관리 가능
     implementation('org.springframework.boot:spring-boot-starter-mustache') // 머스테치
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // 클라이언트 입장에서 소셜 기능 구현시 필요한 의존성
+    implementation('org.springframework.boot:spring-boot-starter-tomcat')
     implementation('org.springframework.session:spring-session-jdbc')
     implementation('mysql:mysql-connector-java')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
